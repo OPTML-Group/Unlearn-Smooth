@@ -9,7 +9,7 @@ However, state-of-the-art unlearning methods face a critical vulnerability: they
 
 ## Contributors
 * [Chongyu Fan](https://a-f1.github.io/)
-* [Jinghan Jia]([https://ljcc0930.github.io/](https://jinghanjia.netlify.app/)
+* [Jinghan Jia](https://jinghanjia.netlify.app/)
 
 ## Cite This Work
 ```
