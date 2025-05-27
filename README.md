@@ -5,7 +5,7 @@
 [![Venue: ICML 2025](https://img.shields.io/badge/Venue-ICML%202025-green)](https://icml.cc/virtual/2025/poster/43469)
 [![preprint](https://img.shields.io/badge/arXiv-2502.05374-B31B1B)](https://arxiv.org/abs/2502.05374)
 [![collection](https://img.shields.io/badge/HuggingFace-Collection-yellow)](https://huggingface.co/collections/OPTML-Group/smooth-unlearned-model-67a92bb04d402b6ca3b2fb01)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/OPTML-Group/Unlearn-Smooth?tab=MIT-1-ov-file)
 [![GitHub stars](https://img.shields.io/github/stars/OPTML-Group/Unlearn-Smooth)](https://github.com/OPTML-Group/Unlearn-Smooth)
 
 </div>
