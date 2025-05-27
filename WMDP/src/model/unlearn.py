@@ -245,6 +245,5 @@ class Unlearn:
             self.init_dataset()
             self.eval(logger)
 
-
 def get(**kwargs):
     return Unlearn(**kwargs)

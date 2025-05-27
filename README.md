@@ -2,12 +2,10 @@
  
 # Towards LLM Unlearning Resilient to Relearning Attacks: A Sharpness-Aware Minimization Perspective and Beyond
 
+[![Venue: ICML 2025](https://img.shields.io/badge/Venue-ICML%202025-green)](https://icml.cc/virtual/2025/poster/43469)
 [![preprint](https://img.shields.io/badge/arXiv-2502.05374-B31B1B)](https://arxiv.org/abs/2502.05374)
 [![collection](https://img.shields.io/badge/HuggingFace-Collection-yellow)](https://huggingface.co/collections/OPTML-Group/smooth-unlearned-model-67a92bb04d402b6ca3b2fb01)
-[![issues](https://img.shields.io/badge/Issues-Welcome!-yellow)](https://github.com/OPTML-Group/Unlearn-Smooth/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/OPTML-Group/Unlearn-Smooth?tab=MIT-1-ov-file)
-[![GitHub top language](https://img.shields.io/github/languages/top/OPTML-Group/Unlearn-Smooth)](https://github.com/OPTML-Group/Unlearn-Smooth)
-[![GitHub repo size](https://img.shields.io/github/repo-size/OPTML-Group/Unlearn-Smooth)](https://github.com/OPTML-Group/Unlearn-Smooth)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)]
 [![GitHub stars](https://img.shields.io/github/stars/OPTML-Group/Unlearn-Smooth)](https://github.com/OPTML-Group/Unlearn-Smooth)
 
 </div>
@@ -24,7 +22,7 @@ of the original model and unlearned model on the forget set.</em>
   </tr>
 </table>
 
-This is the official code repository for the paper [Towards LLM Unlearning Resilient to Relearning Attacks: A Sharpness-Aware Minimization Perspective and Beyond](https://arxiv.org/abs/2410.07163).
+This is the official code repository for ICML 2025 paper [Towards LLM Unlearning Resilient to Relearning Attacks: A Sharpness-Aware Minimization Perspective and Beyond](https://arxiv.org/abs/2410.07163).
 
 ## Abstract
 The LLM unlearning technique has recently been introduced to comply with data regulations and address the safety and ethical concerns of LLMs by removing the undesired data-model influence. However, state-of-the-art unlearning methods face a critical vulnerability: they are susceptible to "relearning" the removed information from a small number of forget data points, known as relearning attacks. In this paper, we systematically investigate how to make unlearned models robust against such attacks. For the first time, we establish a connection between robust unlearning and sharpness-aware minimization (SAM) through a unified robust optimization framework, in an analogy to adversarial training designed to defend against adversarial attacks. Our analysis for SAM reveals that smoothness optimization plays a pivotal role in mitigating relearning attacks. Thus, we further explore diverse smoothing strategies to enhance unlearning robustness. Extensive experiments on benchmark datasets, including WMDP and MUSE, demonstrate that SAM and other smoothness optimization approaches consistently improve the resistance of LLM unlearning to relearning attacks. Notably, smoothness-enhanced unlearning also helps defend against (input-level) jailbreaking attacks, broadening our proposal's impact in robustifying LLM unlearning.
