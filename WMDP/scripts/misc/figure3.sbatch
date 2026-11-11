@@ -15,7 +15,7 @@ export HF_HOME="$SCRATCH/.cache/huggingface"
 export HF_HUB_OFFLINE=1 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_CACHE="$SCRATCH/.cache/huggingface-datasets-unlearn-smooth"
 export OMP_NUM_THREADS=8 MPLBACKEND=Agg
-source "$SCRATCH/lilpipe/envs/unlearn-smooth-wmdp/bin/activate"
+source "$root/environment/bin/activate"
 cd "$root/source/WMDP"
 controller=scripts/misc/figure3.py
 if [[ "$kind" == origin ]]; then
