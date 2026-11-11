@@ -1,0 +1,45 @@
+{
+  "defense_steps": 125,
+  "defense_seed": 1001,
+  "defense_lr": 5e-06,
+  "methods": {
+    "npo": {
+      "config": "configs/unlearn/wmdp/NPO.json",
+      "beta": 0.0225,
+      "gamma": 1.0
+    },
+    "npo-sam": {
+      "config": "configs/unlearn/wmdp/NPO+SAM.json",
+      "beta": 0.015,
+      "gamma": 2.25,
+      "sam_rho": 0.01
+    }
+  },
+  "attack_config": "configs/unlearn/wmdp/Relearn+Forget.json",
+  "attack_lr": 1e-05,
+  "trial_seeds": [
+    1
+  ],
+  "cases": [
+    {
+      "samples": 20,
+      "epochs": 1
+    },
+    {
+      "samples": 20,
+      "epochs": 2
+    },
+    {
+      "samples": 20,
+      "epochs": 3
+    },
+    {
+      "samples": 40,
+      "epochs": 1
+    },
+    {
+      "samples": 60,
+      "epochs": 1
+    }
+  ]
+}
